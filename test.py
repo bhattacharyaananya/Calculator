@@ -1,0 +1,50 @@
+import time
+import pyautogui as pag
+#Below code will open the calculator.
+pag.press("winleft", _pause=True) #will trigger left window key to open the start menu
+time.sleep(0.5)
+pag.typewrite("calculator",interval=0.2) # it will type calculator in the search.
+time.sleep(0.5)
+pag.press("enter") # it will trigger the enter key to open the calculator.
+time.sleep(0.5)
+#Below code will perform add operation on the calculator.
+pag.press("2")
+time.sleep(0.5)
+pag.press("+")
+time.sleep(0.5)
+pag.press("5")
+time.sleep(0.5)
+pag.press("+")
+time.sleep(0.5)
+pag.press("9")
+time.sleep(0.5)
+pag.press("enter")
+time.sleep(0.5)
+pag.press("esc")
+#Below code will perform subtraction operation on the calculator.
+pag.press("9")
+time.sleep(0.5)
+pag.press("-")
+time.sleep(0.5)
+pag.press("2")
+time.sleep(0.5)
+pag.press("-")
+time.sleep(0.5)
+pag.press("6")
+time.sleep(0.5)
+pag.press("enter")
+time.sleep(0.5)
+pag.press("esc")
+#Below code will perform a multiplication operation on the calculator.
+pag.press("2")
+time.sleep(0.5)
+pag.press("*")
+time.sleep(0.5)
+pag.press("2")
+time.sleep(0.5)
+pag.press("*")
+time.sleep(0.5)
+pag.press("6")
+time.sleep(0.5)
+pag.press("enter")
+time.sleep(0.5)
